@@ -1,0 +1,52 @@
+*{
+    /**border: 1px solid black;
+*//
+    text-decoration-color: blue
+}
+
+#cabecera {
+    border-width: 2px;
+    border-color: brown;
+    border-style: groove;
+    border-radius: 10%
+}
+body{
+    background-attachment: fixed;
+    background-position: 25%;
+    background-repeat: no-repeat;
+    background-image: url("images/saxofon.jpg")
+    
+    
+}
+
+
+#menuPrincipal{
+    float: left;
+    width: 10%;
+    border-width: 5px;
+    border-color: brown;
+    border-style: groove;
+    border-radius: 20%
+}
+#contenido{
+    /*background-color: chocolate;*/
+    float: left;
+    border-width: 3px;
+    border-color: brown;
+    border-style: groove;
+    border-radius: 15%;
+    width: 50%;
+    margin: 10px;
+    padding:  5px  20px ; 
+    
+
+}
+
+#pie{
+   clear: both;
+}
+
+.imagen200{
+    width: 200px;
+    height: 200px;
+}
