@@ -1,32 +1,72 @@
-*{
-    /**border: 1px solid black;
-*//
-    text-decoration-color: blue
-}
 
-#cabecera {
-    border-width: 2px;
+
+#cabecera{
+    border-width: 3px;
     border-color: brown;
     border-style: groove;
-    border-radius: 10%
+    border-radius: 100%
 }
-body{
+
+.cabeceratipins{
+    border-width: 3px;
+    border-color: brown;
+    border-style: groove;
+    border-radius: 100%;
+    background-color: chocolate;
+}
+
+section h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-family: fantasy;
+}
+
+h2{
+    color: darkgoldenrod;
+    font-family: cursive;
+}
+
+h3{
+    color: darkgoldenrod;
+    font-family: sans-serif; 
+    text-transform: uppercase;
+}
+
+
+
+#bodyindex{
     background-attachment: fixed;
     background-position: 25%;
+    background-repeat:space;
     background-repeat: no-repeat;
-    background-image: url("images/saxofon.jpg")
-    
-    
+    background-image: url("../images/fondo.png");
+    background-size: 40%;  
+}
+.bodytipo_ins{
+    background-attachment: fixed;
+    background-position: 25%;
+    background-repeat:space;
+    background-repeat: no-repeat;
+    background-image: url("../images/fondo.png");
+    background-size: 40%;  
+}
+
+
+
+#imgcentrada{
+    display:block;
+    margin:auto;
+    border-radius: 25%;
 }
 
 
 #menuPrincipal{
-    float: left;
-    width: 10%;
-    border-width: 5px;
+    border-width: 3px;
     border-color: brown;
     border-style: groove;
-    border-radius: 20%
+    border-radius: 15%;
+    background-color: chocolate;
+
 }
 #contenido{
     /*background-color: chocolate;*/
@@ -34,19 +74,42 @@ body{
     border-width: 3px;
     border-color: brown;
     border-style: groove;
-    border-radius: 15%;
+    border-radius: 12%;
     width: 50%;
     margin: 10px;
     padding:  5px  20px ; 
-    
+
 
 }
 
 #pie{
-   clear: both;
+    border-width: 3px;
+    border-color: brown;
+    border-style: groove;
+    border-radius: 25%;
+    clear: both;
 }
 
-.imagen200{
-    width: 200px;
+.imagenlogoindex{
+
+    width: 700px;
     height: 200px;
+    display:block;
+    margin:auto;
+}
+
+.imagenlogotipoins{
+
+    width: 500px;
+    height: 400px;
+    display:block;
+    margin:auto;
+    border-radius: 100%;
+}
+
+
+
+article p{
+    text-align: justify;
+    font-family: 'Homer Simpson',arial,cursive;
 }
