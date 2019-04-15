@@ -1,0 +1,38 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-image: url(../images/fondo1.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div {
+    border-style: none;
+    margin: 7px;
+    padding: 100px;
+}
+
+header h1{
+    text-align: center;
+    font-style: italic;
+}
+
+#caja3 {
+    margin: 0 7px 7px 0;
+    border-color: darkgray;
+    width: 30%;
+    float: left;
+    height: 500px;
+    color: aliceblue;
+}
+#caja4 {
+    margin: 0 0 0 0;
+    width:0px;
+    float: left;
+    height: 500px;
+}
+input{
+    background: center;
+}
