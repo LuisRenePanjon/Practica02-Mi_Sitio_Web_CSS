@@ -12,22 +12,21 @@
     border-color: brown;
     border-style: groove;
     border-radius: 100%;
-    background-color: chocolate;
 }
 
 section h1{
     text-align: center;
-    color: darkgoldenrod;
+    color: aquamarine;
     font-family: fantasy;
 }
 
 h2{
-    color: darkgoldenrod;
+    color: currentColor;
     font-family: cursive;
 }
 
 h3{
-    color: darkgoldenrod;
+    color: aqua;
     font-family: sans-serif; 
     text-transform: uppercase;
 }
@@ -38,25 +37,27 @@ h3{
     background-attachment: fixed;
     background-position: 25%;
     background-repeat:space;
-    background-repeat: no-repeat;
-    background-image: url("../images/fondo.png");
+    background-repeat: repeat;
+    background-image: url("../images/fondo1.jpg");
     background-size: 40%;  
 }
-.bodytipo_ins{
+.body{
     background-attachment: fixed;
     background-position: 25%;
     background-repeat:space;
-    background-repeat: no-repeat;
-    background-image: url("../images/fondo.png");
+    background-repeat:repeat;
+    background-image: url("../images/fondo1.jpg");
     background-size: 40%;  
 }
 
 
 
-#imgcentrada{
+.imgcentrada{
     display:block;
     margin:auto;
-    border-radius: 25%;
+    border-radius: 150px;
+    width: 400px;
+    height: 400px;
 }
 
 
@@ -66,7 +67,7 @@ h3{
     border-style: groove;
     border-radius: 15%;
     background-color: chocolate;
-
+    line-height: 35px;
 }
 #contenido{
     /*background-color: chocolate;*/
@@ -111,5 +112,24 @@ h3{
 
 article p{
     text-align: justify;
-    font-family: 'Homer Simpson',arial,cursive;
+    font-family: segoe print, blog script, 'Homer Simpson',arial,cursive;
+    font-weight: 700;
+}
+
+
+
+
+section ul li{
+    font-size: x-large;
+    font-family: sans-serif;
+}
+
+article ol li{
+     font-size: x-large;
+    font-family: tekton, dakota,cursive;
+}
+
+table{
+    border: red 5px solid;
+   
 }
